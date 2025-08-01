@@ -25,8 +25,8 @@ To use this app, you can follow these steps:
 
 To use the app, simply type the name of the city you want to search for in the search bar and press Enter. The app will display the current weather conditions for the searched city.
 
-# Demo
-A live demo of the React Weather App is available at [LINK TO LIVE DEMO]
+# Deploy Link
+A live demo of the React Weather App is available at [react-weather-applica.netlify.app]
 
 
 
