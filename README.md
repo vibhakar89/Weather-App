@@ -2,7 +2,7 @@
 This is a web app developed as a  project for  React using React.js. It allows users to search for the weather conditions of any city in the world and provides current weather information. 
 
 
-![image alt](https://github.com/vibhakar89/Weather-App/blob/1690072fd1c9dd51b7928c96e86e00492ed8f908/Screenshot%20(469).png)
+![image alt](https://github.com/vibhakar89/Weather-App/blob/1c6855a248a4d1a334688367fb6b8310c3902391/Screenshot%201.png)
 
 # Features
 - Users can search for weather conditions of any city in the world.
@@ -35,3 +35,4 @@ A live demo of the React Weather App is available at  [LINK TO LIVE DEMO](https:
 
 # License
 This project is licensed under the MIT license.
+
