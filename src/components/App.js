@@ -37,7 +37,7 @@ function App() {
     
     if (event.type === "click" || (event.type === "keypress" && event.key === "Enter")) {
       setWeather({ ...weather, loading: true });
-      const apiKey = "9591e92c74a7d772ea91649a75470cc8";
+      const apiKey = "Enter Your API Key Here";
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${apiKey}&units=metric`;
 
       try {
@@ -54,7 +54,7 @@ function App() {
   useEffect(() => {
     const fetchDefaultCityWeather = async () => {
       const defaultCity = "Delhi"; // or use `query || "Delhi"`
-      const apiKey = "9591e92c74a7d772ea91649a75470cc8";
+      const apiKey = "Enter Your API Key Here";
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${defaultCity}&appid=${apiKey}&units=metric`;
 
       try {
@@ -101,3 +101,4 @@ function App() {
 }
 
 export default App;
+
