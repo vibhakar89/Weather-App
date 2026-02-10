@@ -10,7 +10,7 @@ function Forecast({ weather, toDate }) {
     const fetchForecast = async () => {
       if (!data.coord) return;
 
-      const apiKey = "9591e92c74a7d772ea91649a75470cc8";
+      const apiKey = "api - key";
       const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${data.coord.lat}&lon=${data.coord.lon}&appid=${apiKey}&units=metric`;
 
       try {
@@ -89,5 +89,6 @@ function Forecast({ weather, toDate }) {
 }
 
 export default Forecast;
+
 
 
